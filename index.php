@@ -56,7 +56,6 @@ summary:hover{background-color:black;color:lightblue;}
 summary:hover::before{content:"<<<";font-weight:bold;}
 #author{position:fixed;width:100%;bottom:0;right:0;}
 small{background:white;padding:4px;}
-#text{background-color:white;color:black;padding:8px;white-scpace:pre-wrap;}
 </style>
 </head>
 <body onload='content(localStorage.getItem("data"))';>
@@ -72,10 +71,7 @@ small{background:white;padding:4px;}
 <p>А заодно развинчиваем распространенные мифы</p>
 </ul>
 <main>
-<div id="text">
-1.
-Начну с самого первого шага то есть прививка бцж которую делают при рождении разработана 100 лет назад, прививка не защищает от заражения туберкулезом она лишь предотвращает тяжёлую форму заболевания первые полгода у ребёнка и это не моё личное мнение дословно на телевидение сказал академик гинзбург который создал вакцину от коронавируса. Как видите о каком хорошем лечение может быть речь если 100 лет никто не чего не придумывал а скорее всего и не было желания.
-</div>
+<div id="text"></div>
 <script id="baba" type="text/babel"></script>
 </main>
 <div id="vvod">
@@ -87,10 +83,9 @@ small{background:white;padding:4px;}
 </div>
 <footer  id="author" >
 <hr width="25%" align="right" />
-<small>2022 &copy; <i><ins>Роман ГРуздев</ins></i><sup>™</sup><sup>®</sup></small></p>
+<small>2022 &copy; <i><ins>Борисов Александр</ins></i><sup>™</sup><sup>®</sup></small></p>
 </footer>
 <script>
-/*
 const container=document.getElementById("text");
 container.style.whiteSpace="pre-wrap";
 container.style.background="transparent";
@@ -110,7 +105,6 @@ function content(z){
 	document.getElementById("text").innerHTML=z;
 	
 }
-*/
 </script>
 
 </body>
