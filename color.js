@@ -379,6 +379,7 @@ H1();
 A();
 UL()
 P();
+FOOTER();
 
 function H1(){
 	CLR = COLOR[Math.floor(Math.random()*COLOR.length)];
@@ -415,6 +416,12 @@ function P(){
 	HRclr = hrCOLOR[Math.floor(Math.random()*hrCOLOR.length)];
 	$("section p").css("background",HRbg());
 	$("section p").css("color",HRc());
+	
+}
+function FOOTER(){
+	CLR = COLOR[Math.floor(Math.random()*COLOR.length)];
+	$("footer").css("background",BG());
+	$("footer").css("color",FC());
 	
 }
 });
