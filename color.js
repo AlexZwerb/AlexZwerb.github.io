@@ -372,13 +372,13 @@ function BODY(){
 	CLR = FON[Math.floor(Math.random()*FON.length)]
 document.body.style.background = BG();
 document.body.style.color = FC();
-
+P();
 }
 BODY();
 H1();
 A();
 UL()
-P();
+
 FOOTER();
 
 function H1(){
