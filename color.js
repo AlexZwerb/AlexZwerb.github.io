@@ -378,8 +378,8 @@ BODY();
 H1();
 A();
 UL()
-
 FOOTER();
+
 
 function H1(){
 	CLR = COLOR[Math.floor(Math.random()*COLOR.length)];
@@ -410,6 +410,7 @@ function HEADER(){
 	CLR = COLOR[Math.floor(Math.random()*COLOR.length)];
 	$("header").css("background",BG());
 	$("header").css("color",FC());
+	FOOTER();
 	
 }
 function P(){
@@ -419,7 +420,7 @@ function P(){
 	
 }
 function FOOTER(){
-	CLR = COLOR[Math.floor(Math.random()*COLOR.length)];
+	CLR = FON[Math.floor(Math.random()*FON.length)];
 	$("footer").css("background",BG());
 	$("footer").css("color",FC());
 	

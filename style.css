@@ -5,7 +5,7 @@ header{position:relative;}
 h1{font-style:italic;border:inset ivory;border-radius:15px;}
 ul *,ul{font-family:Tahoma;padding:6px;}
 ul{padding-left:30px;}
-footer{background:transparent;margin:16px 0 0 0;text-align:right;color:#eee;font-size:smaller;}
+footer{margin:16px 0 0 0;text-align:right;color:#eee;font-size:smaller;padding:5px;}
 footer p{text-shadow:none;font-family:Arial;font-weight:lighter}
 @media screen and (max-width: 400px){
    h1{font-size:24px}
