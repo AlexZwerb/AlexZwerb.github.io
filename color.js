@@ -387,7 +387,7 @@ function H1(){
 }
 
 function A(){
-	CLR = HRclr[Math.floor(Math.random()*HRclr.length)];
+	HRclr = hrCOLOR[Math.floor(Math.random()*hrCOLOR.length)];
 	$("a").css("background",HRbg());
 	$("a").css("color",HRc());
 	
@@ -412,7 +412,7 @@ function HEADER(){
 	
 }
 function P(){
-	CLR = HRclr[Math.floor(Math.random()*HRclr.length)];
+	HRclr = hrCOLOR[Math.floor(Math.random()*hrCOLOR.length)];
 	$("section p").css("background",HRbg());
 	$("section p").css("color",HRc());
 	
