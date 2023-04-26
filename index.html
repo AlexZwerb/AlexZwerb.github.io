@@ -130,10 +130,10 @@ const main= document.querySelector('section');
 const ORcont=main.innerHTML;
 
 const poisk = document.getElementById('poisk');
-poisk.onchange=function(){if(main.textContent.includes(poisk.value)&&(poisk.value != ' '&& poisk.value != '')){searching(poisk.value);document.location='#View'}
+poisk.onchange=function(){if(main.textContent.includes(poisk.value)&&(poisk.value != ' '&& poisk.value != '')){searching(poisk.value)}
   else return main.innerHTML=ORcont;
-
 }
+
 
 
 /*

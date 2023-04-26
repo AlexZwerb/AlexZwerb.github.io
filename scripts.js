@@ -20,5 +20,7 @@ function searching(txt){
 	
 
 }
+return document.location="#View";
 }
+
 //orig.innerHTML = itogo.replaceAll( txt,`<span style="color:white;background:black"> ${txt} </span>`);
