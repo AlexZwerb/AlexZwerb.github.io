@@ -58,10 +58,11 @@ section a {color:blue;}
 <li>правдивые факты о болезни</li>
 <li>способы борьбы</li>
 <li>профилактические меры</li>
-<li><p style="">А заодно развинчиваем распространенные мифы</p></li>
+<li><p>А заодно развинчиваем распространенные мифы</p></li>
 </ul>
-<nav><a href="media.html">медиафайлы</a></nav>
-<main>
+<nav><p><a href="media.html">медиафайлы</a></p></nav>
+<main id='content'>
+<p><input id='poisk' type = 'search' onchange= 'searching(this.value);' placeholder='поиск по странице'/></p>
 <section>
 <p class="text" >
 Начну с самого первого шага то есть прививка <a href="javascript:void(0)" title="https://ru.wikipedia.org/wiki/%D0%91%D0%A6%D0%96" onclick="wiki(this.title);">БЦЖ</a> которую делают при рождении разработана 100 лет назад, прививка не защищает от заражения туберкулезом она лишь предотвращает тяжёлую форму заболевания первые полгода у ребёнка и это не моё личное мнение дословно на телевидение сказал академик Гинзбург который создал вакцину от коронавируса. Как видите о каком хорошем лечение может быть речь если 100 лет никто не чего не придумывал а скорее всего и не было желания.
@@ -124,6 +125,23 @@ var privet=document.createElement('div');
 privet.textContent=`Добр${sey} `;
 var bashka=document.getElementById("bashka");
 bashka.appendChild(privet);
+
+const poisk = document.getElementById('poisk');
+const main= document.querySelector('section');
+const ORcont=main.innerHTML;
+
+/*
+poisk.onchange = function(){
+   if((document.querySelector('section').textContent.includes(poisk.value) == true) && (poisk.value != ' ') && (poisk.value != '')){
+     searching(poisk.value);
+	 return poisk.value='';
+   }
+   else {main.innerHTML = ORcont;}
+    
+}
+*/
+
+
 
 </script>
 <script src="scripts.js"></script>

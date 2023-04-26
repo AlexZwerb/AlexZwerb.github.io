@@ -395,7 +395,7 @@ function A(){
 }
 
 function UL(){
-	CLR = "white"
+	CLR = "white";
 	$("ul").css("background",BG());
 	$("ul").css("color",FC());
 	
@@ -414,7 +414,7 @@ function HEADER(){
 	
 }
 function P(){
-	HRclr = hrCOLOR[Math.floor(Math.random()*hrCOLOR.length)];
+	HRclr = 'white';
 	$("section p").css("background",HRbg());
 	$("section p").css("color",HRc());
 	

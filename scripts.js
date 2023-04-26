@@ -6,3 +6,22 @@ var answ=document.getElementById("answer");
 function TITLE(y){
  alert(y);	
 }
+
+
+function searching(txt){
+	var itogo ;
+	var elem;
+	var xxx;
+	for(let r of document.querySelectorAll('.text')){
+		if(txt != '' && txt != ' '){
+		r.innerHTML = r.textContent.replaceAll(r.textContent,r.textContent.replaceAll(txt,`<span style="color:white;background:black"> ${txt} </span>`));
+		}
+		else{
+			r.innerHTML=r.innerText;
+		}
+		
+	
+
+}
+}
+//orig.innerHTML = itogo.replaceAll( txt,`<span style="color:white;background:black"> ${txt} </span>`);
