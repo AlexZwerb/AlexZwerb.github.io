@@ -11,7 +11,7 @@ function TITLE(y){
 function searching(txt){
 	for(let r of document.querySelectorAll('.text')){
 		if(txt != '' && txt != ' '){
-		 r.innerHTML = r.textContent.replaceAll(r.textContent,r.textContent.replaceAll(txt,`<span style="color:white;background:black">${txt}</span>`));
+		 r.innerHTML = r.textContent.replaceAll(r.textContent,r.textContent.replaceAll(txt,`<span id="View" style="color:white;background:black">${txt}</span>`));
 			}
 		
 		else{
