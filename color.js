@@ -369,7 +369,7 @@ function HRc(){
 $(function(){
 	
 function BODY(){
-	CLR = FON[Math.floor(Math.random()*FON.length)]
+	CLR = 'white';
 document.body.style.background = BG();
 document.body.style.color = FC();
 P();
