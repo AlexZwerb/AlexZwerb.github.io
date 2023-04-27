@@ -428,7 +428,8 @@ function FOOTER(){
 }
 });
 
-
+const meta = document.getElementById('theme');
+meta.content=`${COLOR[Math.floor(Math.random()*COLOR.length)]}`;
 
 
 
