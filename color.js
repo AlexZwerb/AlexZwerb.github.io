@@ -388,9 +388,10 @@ function H1(){
 }
 
 function A(){
-	HRclr = hrCOLOR[Math.floor(Math.random()*hrCOLOR.length)];
-	$("a").css("background",HRbg());
+	HRclr = HRblack[Math.floor(Math.random()*HRblack.length)];
+	$("a").css("text-decoration",`overline underline ${HRc()}`);
 	$("a").css("color",HRc());
+	$("a").css("background",'white');
 	
 }
 
