@@ -389,7 +389,7 @@ function H1(){
 
 function A(){
 	HRclr = HRblack[Math.floor(Math.random()*HRblack.length)];
-	$("a").css("text-decoration",`overline underline ${HRbg()}`);
+	$("a").css("border-color",`${HRc()}`);
 	$("a").css("color",HRc());
 	$("a").css("background",'white');
 	

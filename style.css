@@ -19,6 +19,7 @@ main p{border-radius:10px;}
 .titl li:last-child{list-style-type:none;}
 .titl{border-radius:10px;}
 main{padding:16px;}
+nav a{text-shadow:none;font-weight:900;text-decoration:none;border:solid 2px;padding:2px;border-radius:10px;}
 section a {font-weight:100;background:white!important;color:green!important;padding:0px;font-family:'Verdana';border-radius:4px;}
 section img{max-width:10%;}
 #pics a{background-color:transparent!important;}
