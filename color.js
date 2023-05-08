@@ -2,9 +2,7 @@ var COLOR = ["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","mar
 var HEADER = ["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey","blue","darkMagenta","rebeccaPurple","darkGreen","saddleBrown","brown","fireBrick","darkViolet","blueViolet","darkOliveGreen","darkOrchid","sienna","dimGrey","mediumVioletRed","slateBlue","green","crimson","royalBlue","teal","forestGreen","seaGreen","olive","mediumSlateBlue","darkCyan","steelBlue","slateGrey","red","indianRed","grey","mediumOrchid","oliveDrab","mediumPurple","deepPink","chocolate","orangeRed","darkGoldenRod","dodgerBlue","magenta","paleVioletRed","cadetBlue","peru","cornFlowerBlue","tomato","orchid","rosyBrown","mediumSeaGreen","hotPink","lightSeaGreen","lightCoral","salmon","coral","darkGrey","darkOrange","violet","darkSalmon","goldenRod","darkSeaGreen","deepSkyBlue","limeGreen","plum","darkKhaki","sandyBrown","lightSalmon","orange","tan","darkTurquoise","mediumAquamarine","yellowGreen","mediumTurquoise","burlyWood","silver","lightSteelBlue","skyBlue","lightSkyBlue","thistle","lightPink","turquoise","pink","lightblue","lightGrey","powderBlue","lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
 var hrCOLOR = ["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey","blue","darkMagenta","rebeccaPurple","darkGreen","saddleBrown","brown","peru","cornFlowerBlue","tomato","orchid","rosyBrown","mediumSeaGreen","hotPink","lightSeaGreen","lightCoral","salmon","coral","darkGrey","darkOrange","violet","darkSalmon","goldenRod","darkSeaGreen","deepSkyBlue","limeGreen","plum","darkKhaki","sandyBrown","lightSalmon","orange","tan","darkTurquoise","mediumAquamarine","yellowGreen","mediumTurquoise","burlyWood","silver","lightSteelBlue","skyBlue","lightSkyBlue","thistle","lightPink","turquoise","pink","lightblue","lightGrey","powderBlue","lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
 var white = ["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey","blue","darkMagenta","rebeccaPurple","darkGreen","saddleBrown","brown","fireBrick","darkViolet","blueViolet","darkOliveGreen","darkOrchid","sienna","dimGrey","mediumVioletRed","slateBlue","green","royalBlue","teal"];
-
 var black =["forestGreen","crimson","seaGreen","olive","mediumSlateBlue","darkCyan","steelBlue","slateGrey","red","indianRed","grey","mediumOrchid","oliveDrab","mediumPurple","deepPink","chocolate","orangeRed","darkGoldenRod","dodgerBlue","magenta","paleVioletRed","cadetBlue","peru","cornFlowerBlue","tomato","orchid","rosyBrown","mediumSeaGreen","hotPink","lightSeaGreen","lightCoral","salmon","coral","darkGrey","darkOrange","violet","darkSalmon","goldenRod","darkSeaGreen","deepSkyBlue","limeGreen","plum","darkKhaki","sandyBrown","lightSalmon","orange","tan","darkTurquoise","mediumAquamarine","yellowGreen","mediumTurquoise","burlyWood","silver","lightSteelBlue","skyBlue","lightSkyBlue","thistle","lightPink","turquoise","pink","lightblue","lightGrey","powderBlue","lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var cornsilk=["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey","blue","darkMagenta","rebeccaPurple","darkGreen","saddleBrown","brown","fireBrick","darkViolet","blueViolet","darkOliveGreen","darkOrchid","sienna","dimGrey","mediumVioletRed","slateBlue","green","royalBlue"];
 var navy = ["orangeRed","darkGoldenRod","dodgerBlue","magenta","paleVioletRed","cadetBlue","peru","cornFlowerBlue","tomato","orchid","rosyBrown","mediumSeaGreen","hotPink","lightSeaGreen","lightCoral","salmon","coral","darkGrey","darkOrange","violet","darkSalmon","goldenRod","darkSeaGreen","deepSkyBlue","limeGreen","plum","darkKhaki","sandyBrown","lightSalmon","orange","tan","darkTurquoise","mediumAquamarine","yellowGreen","mediumTurquoise","burlyWood","silver","lightSteelBlue","skyBlue","lightSkyBlue","thistle","lightPink","turquoise","pink","lightblue","lightGrey","powderBlue","lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
 var oldLace=["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey","blue","darkMagenta","rebeccaPurple","darkGreen","saddleBrown","brown","fireBrick","darkViolet","blueViolet","darkOliveGreen","darkOrchid","sienna","dimGrey","mediumVioletRed","slateBlue","green"];
@@ -48,90 +46,44 @@ var orchid = ["black","navy","darkBlue","midnightBlue"];
 var crimson = "black";
 var orangeRed =["black","navy"];
 var teal = ["lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRwhite = ["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey","blue","darkMagenta","rebeccaPurple","darkGreen","saddleBrown","brown"];
-
 var HRblack=["peru","cornFlowerBlue","tomato","orchid","rosyBrown","mediumSeaGreen","hotPink","lightSeaGreen","lightCoral","salmon","coral","darkGrey","darkOrange","violet","darkSalmon","goldenRod","darkSeaGreen","deepSkyBlue","limeGreen","plum","darkKhaki","sandyBrown","lightSalmon","orange","tan","darkTurquoise","mediumAquamarine","yellowGreen","mediumTurquoise","burlyWood","silver","lightSteelBlue","skyBlue","lightSkyBlue","thistle","lightPink","turquoise","pink","lightblue","lightGrey","powderBlue","lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
-
 var HRnavy = ["goldenRod","darkSeaGreen","deepSkyBlue","limeGreen","plum","darkKhaki","sandyBrown","lightSalmon","orange","tan","darkTurquoise","mediumAquamarine","yellowGreen","mediumTurquoise","burlyWood","silver","lightSteelBlue","skyBlue","lightSkyBlue","thistle","lightPink","turquoise","pink","lightblue","lightGrey","powderBlue","lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRdarkBlue = ["darkSeaGreen","deepSkyBlue","limeGreen","plum","darkKhaki","sandyBrown","lightSalmon","orange","tan","darkTurquoise","mediumAquamarine","yellowGreen","mediumTurquoise","burlyWood","silver","lightSteelBlue","skyBlue","lightSkyBlue","thistle","lightPink","turquoise","pink","lightblue","lightGrey","powderBlue","lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRmidnightBlue =["limeGreen","plum","darkKhaki","sandyBrown","lightSalmon","orange","tan","darkTurquoise","mediumAquamarine","yellowGreen","mediumTurquoise","burlyWood","silver","lightSteelBlue","skyBlue","lightSkyBlue","thistle","lightPink","turquoise","pink","lightblue","lightGrey","powderBlue","lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRindigo =["silver","lightSteelBlue","skyBlue","lightSkyBlue","thistle","lightPink","turquoise","pink","lightblue","lightGrey","powderBlue","lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRmediumBlue = ["pink","lightblue","lightGrey","powderBlue","lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRdarkRed = ["lightgreen","gold","mediumSpringGreen","lime","gainsboro","springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRpurple = ["springGreen","lawnGreen","peachPuff","wheat","chartreuse","paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRdarkSlateBlue = ["paleTurquoise","navajoWhite","khaki","paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRdarkSlateGrey = ["paleGreen","aqua","paleGoldenRod","moccasin","lavender","greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRblue=["greenYellow","bisque","aquamarine","mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRdarkMagenta = ["mistyRose","antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRrebeccaPurple = ["antiqueWhite","blanchedAlmond","papayaWhip","linen","beige","lavenderBlush","whiteSmoke","oldLace","seaShell","yellow","aliceBlue","lightGoldenRodYellow","cornsilk","lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRdarkGreen = ["lemonChiffon","ghostWhite","lightCyan","floralWhite","honeyDew","snow","azure","mintCream","lightYellow","ivory","white"];
-
 var HRsaddleBrown = ["ivory","white"];
-
 var HRlightYellow = ["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey","blue","darkMagenta","rebeccaPurple","darkGreen"];
-
 var HRcornsilk =["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey","blue","darkMagenta","rebeccaPurple"];
-
 var HRmistyRose=["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey","blue","darkMagenta"];
-
 var HRaquamarine = ["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey","blue"];
-
 var HRlavender=["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue","darkSlateGrey"];
-
 var HRkhaki=["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple","darkSlateBlue"];
-
 var HRchartreuse=["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed","purple"];
-
 var HRgainsboro =["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon","darkRed"];
-
 var HRpowderBlue = ["black","navy","darkBlue","midnightBlue","indigo","mediumBlue","maroon"];
-
 var HRturquoise=["black","navy","darkBlue","midnightBlue","indigo"];
-
 var HRburlyWood=["black","navy","darkBlue","midnightBlue"];
-
 var HRdeepSkyBlue = ["black","navy","darkBlue"];
-
 var HRgoldenRod=["black","navy"];
-
-
-
-
-
 var FON = ["black","white"];
-
-
-
-
-
-
-
-
-
 var CLR=COLOR[Math.floor(Math.random()*COLOR.length)];
 var HRclr = hrCOLOR[Math.floor(Math.random()*hrCOLOR.length)];
-
 function BG(){
 	return CLR;
 }
 function HRbg(){
 	return HRclr;
 }
-
 function FC(){
 	var x = BG();
 	if(x == "black"){
@@ -270,7 +222,6 @@ function FC(){
 		return teal[Math.floor(Math.random()*teal.length)];
 	}
 }
-
 function HRc(){
 	var y = HRbg();
 	if(y == "black"){
@@ -363,11 +314,8 @@ function HRc(){
 	else if(y == 'saddleBrown' || y == "brown"){
 		return HRsaddleBrown[Math.floor(Math.random()*HRsaddleBrown.length)];
 	}
-	
 }
-
 $(function(){
-	
 function BODY(){
 	CLR = 'white';
 document.body.style.background = BG();
@@ -379,14 +327,11 @@ H1();
 A();
 UL()
 FOOTER();
-
-
 function H1(){
 	CLR = COLOR[Math.floor(Math.random()*COLOR.length)];
 	$("h1").css("background",BG());
 	$("h1").css("color",FC());
 }
-
 function A(){
 	HRclr = HRblack[Math.floor(Math.random()*HRblack.length)];
 	$("a").css("border-color",`${HRc()}`);
@@ -394,7 +339,6 @@ function A(){
 	$("a").css("background",'white');
 	
 }
-
 function UL(){
 	CLR = "white";
 	$("ul").css("background",BG());
@@ -427,7 +371,6 @@ function FOOTER(){
 	
 }
 });
-
 const meta = document.getElementById('theme');
 meta.content=`${COLOR[Math.floor(Math.random()*COLOR.length)]}`;
 
