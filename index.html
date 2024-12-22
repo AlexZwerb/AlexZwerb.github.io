@@ -130,9 +130,12 @@ section a {color:blue;}
 </main>
 <footer>
 <hr align="right" width="25%" />
-<p>2022-2024</p></footer>
+<p>2022-<span id="FyS"></span></p></footer>
 <script>
 var timer=new Date();
+var year = timer.getFullYear();
+var YR = document.getElementById("FyS");
+YR.innerText = year;
 
 var vremya=timer.getHours();
 var sey;
