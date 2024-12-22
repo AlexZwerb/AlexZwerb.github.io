@@ -1,6 +1,6 @@
 ul,ul *{text-shadow:4px 4px 8px ;}
 body{margin:0 auto;max-width:100%;padding:8px;}
-header h1{position:relative;background-image:url("i.webp")!important;color:white;}
+header h1{position:relative;background-image:url("BG/9.jpg")!important;color:white;}
 #kreuz{position:absolute;z-index:500;width:160px;opacity:1;top:25px;left:-30px;filter:drop-shadow(1px 2px 4px black)drop-shadow(2px 3px 4px red)}
 h1{font-style:italic;border:inset ivory;border-radius:15px;}
 ul *,ul{font-family:Tahoma;padding:6px;}
